@@ -102,7 +102,7 @@ body {
   font-family: 'VT323', monospace;
   color: var(--color-font);
     /* background: linear-gradient(-45deg, #d9ff00, #0000ff, #00ff5e, #00d9ff,rgb(55, 55, 183),rgb(255, 166, 1),rgb(255, 0, 221)); */
-    background: linear-gradient(-45deg, #f7ffcc, #ed9b1f, #32d771);
+    background: linear-gradient(-45deg, #ffd7a2, #ffa60c, #ff6c11);
     background-size: 400% 400%;
     animation: gradient 25s linear infinite;
     animation-direction: alternate;
@@ -162,33 +162,39 @@ h1 {
 }
 h2 {
   font-family: 'DM Serif Display', serif;
-  color:rgb(66, 66, 253);
+  color:rgb(0, 0, 0);
   font-weight: 200;
   font-size: 3rem;
   text-shadow: 1px 1px #ffac27, -1px -1px rgb(0, 0, 0);
   display: flexbox;
   text-align: center;
   padding: 1vh;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 p {
   font-weight: 200;
   font-size: 2rem;
-  text-shadow: 1px 1px #ffffff;
+  /* text-shadow: 1px 1px #001aff; */
   display: flexbox;
   text-align: center;
   padding: 1vh;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 h3 {
-  font-family: 'DM Serif Display', serif;
-  color:rgb(66, 66, 253);
+  font-family: 'VT323', monospace;
+  color:rgb(0, 0, 0);
   font-weight: 200;
   font-size: 4rem;
   display: flexbox;
-  text-shadow: 1px 1px #ffac27, -1px -1px rgb(0, 0, 0);
+  text-shadow: 1px 1px #ff7b00, 2px 2px black;
   text-transform: none;
   text-align: center;
   padding: 1vh;
+  margin-left: 5rem;
+  margin-right: 5rem;
   line-height: 10vh;
 }
 /* h4 {
@@ -251,6 +257,12 @@ display: flexbox;
 align-self: center;
 width: 50%;
 }
+
+.img2 {
+  display: flexbox;
+  align-items: center;
+  width: 45%;
+  }
 
 aside h3 {
   font-style: italic;
